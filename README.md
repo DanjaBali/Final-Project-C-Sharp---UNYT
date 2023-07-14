@@ -7,6 +7,7 @@ Student
 Course
 
 Score
+
 Each of the categories have three subcategories.
 
 The Student category includes:
