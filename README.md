@@ -11,20 +11,29 @@ Score
 Each of the categories have three subcategories.
 
 The Student category includes:
+
 Registration where we can register a new student,
+
 Manage Student that updates the data for the students added,
+
 Print that prints the whole information in this category.
 
 
 The Course category includes:
+
 New Course where we can add a course
+
 Manage Course that updates the information entered for the added course,
+
 Print that prints the all the data regarded to the Course category.
 
 
 The Score category includes:
+
 New Score where we can enter new scores for a specific student
+
 Manage Scores that updates the scores entered
+
 Print that prints the information about the scores.
 
 Reports
