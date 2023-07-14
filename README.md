@@ -14,15 +14,21 @@ The Student category includes:
 Registration where we can register a new student,
 Manage Student that updates the data for the students added,
 Print that prints the whole information in this category.
+
+
 The Course category includes:
 New Course where we can add a course
 Manage Course that updates the information entered for the added course,
 Print that prints the all the data regarded to the Course category.
+
+
 The Score category includes:
 New Score where we can enter new scores for a specific student
 Manage Scores that updates the scores entered
 Print that prints the information about the scores.
+
 Reports
+
 In the implementation of the program is used the MDI inheritance form. The program includes a splash screen in the beginning, and after it, the interface login which makes possible to enter the program, checks if an account is created or not. The account in login interface is connected with the database and gets all the data from the User table. So, the account is created directly from the database. The mainForm includes all the categories of the program. Here we can access all the information such as the total of the students registered at the university, the number of male and the number of female students, also the number of the students registered to specific courses just by searching the gender. Moreover, the categories are organized using #region and #endregion that can organize the code in blocks that extend or close the main category.
 
 Additionally, the subcategory Register, which is part of the category Student, consists of the name, last name, phone number, address, birthday, gender, and the photo of the student. Also, it includes even two buttons add and clear. Add button is to add a student in the list, whereas clear button is to automatically clear the data if the registration is canceled. This form also includes a DataGrid view to show the list of the registered students. The subcategory Manage Students is almost the same, apart from the text-box where we can search the students by their name, and also the text-box to enter the ID of the student in order to update the information. This form includes the buttons delete to delete the student and update the data, and clear to automatically delete the data. Furthermore, the interface Print consists of a DataGrid view that shows all the registered students with the relevant data. Also, there are three radio buttons1 that help to show in the DataGrid view the information of all the students (male, female), or just male students or female students. We can even just search by name only one student using text-box. The print button is for printing the information we need.
