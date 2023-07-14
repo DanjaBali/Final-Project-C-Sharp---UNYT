@@ -3,7 +3,9 @@ Final Project C-Sharp - UNYT
 In this project is implemented a management system program of our university, University of New York Tirana. The program includes three main categories in the menu, which are:
 
 Student
+
 Course
+
 Score
 Each of the categories have three subcategories.
 
